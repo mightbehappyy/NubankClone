@@ -70,5 +70,6 @@ const styles = StyleSheet.create({
     height: "auto",
     color: "#fff",
     marginVertical: 20,
+    paddingHorizontal: 10,
   },
 });
