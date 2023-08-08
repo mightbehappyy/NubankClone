@@ -12,7 +12,6 @@ import { MyLoan } from "../../UI/myLoan";
 import { MyInvestments } from "../../UI/MyInvestments";
 import { MyInsurance } from "../../UI/Insurane";
 import { Shopping } from "../../UI/Shopping";
-import { DiscoverMore } from "../../UI/DiscoverMore";
 import { DiscoverList } from "../../Layout/DiscoverList";
 
 export function Initial() {
