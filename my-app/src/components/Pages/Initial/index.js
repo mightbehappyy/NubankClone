@@ -17,25 +17,27 @@ import { DiscoverList } from "../../Layout/DiscoverList";
 export function Initial() {
   return (
     <ScrollView style={styles.container}>
-      <Header />
-      <MoneyCount />
-      <OptionsList />
-      <View style={styles.center}>
-        <MyCards />
+      <View style={styles.background}>
+        <Header />
+        <MoneyCount />
+        <OptionsList />
+        <View style={styles.center}>
+          <MyCards />
+        </View>
+        <SugestionList />
+        <DivisionLine />
+        <MyDebt />
+        <DivisionLine />
+        <MyLoan />
+        <DivisionLine />
+        <MyInvestments />
+        <DivisionLine />
+        <MyInsurance />
+        <DivisionLine />
+        <Shopping />
+        <DivisionLine />
+        <DiscoverList />
       </View>
-      <SugestionList />
-      <DivisionLine />
-      <MyDebt />
-      <DivisionLine />
-      <MyLoan />
-      <DivisionLine />
-      <MyInvestments />
-      <DivisionLine />
-      <MyInsurance />
-      <DivisionLine />
-      <Shopping />
-      <DivisionLine />
-      <DiscoverList />
     </ScrollView>
   );
 }
@@ -43,10 +45,12 @@ export function Initial() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#000",
-    paddingHorizontal: 1,
+    backgroundColor: "#5C0098",
   },
   center: {
     alignItems: "center",
+  },
+  background: {
+    backgroundColor: "#000",
   },
 });
