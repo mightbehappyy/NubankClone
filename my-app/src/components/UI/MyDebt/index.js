@@ -4,6 +4,7 @@ import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 export function MyDebt() {
   return (
     <TouchableOpacity style={styles.container}>
+      <StatusBar backgroundColor="##5C0098" barStyle="light-content" />
       <View style={styles.row}>
         <View style={styles.startItem}>
           <Text style={styles.title}>Cartão de crédito</Text>
